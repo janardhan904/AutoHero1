@@ -24,7 +24,7 @@ public class SearchTest {
         driver.findElement(By.id("firstRegistrationFilter")).click();
         driver.findElement(By.id("firstRegistrationFilter")).click();
         driver.findElement(By.id("firstRegistrationFilter")).click();
-        System.out.println("yes");
+        System.out.println("yes yes");
 
         //Selecting Range FIlter
         WebElement rangeStartFilter =  driver.findElement(By.xpath("//div[@aria-labelledby='firstRegistrationFilter']//select[@id=\"rangeStart\"]"));
